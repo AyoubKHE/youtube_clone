@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+/*! Start Header Style */
+
+header {
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*? Start Left Section */
+.left-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 15%;
+}
+
+.left-section i {
+    width: 15%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.left-section i:hover {
+    background-color: #eeecec;
+    border-radius: 50%;
+}
+
+.left-section img {
+    width: 70%;
+    margin-left: 16px;
+}
+
+/*? Start Mid Section */
+.mid-section {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mid-section form {
+    width: 94%;
+    display: flex;
+}
+
+.mid-section input {
+    width: 91%;
+    padding: 12px;
+    border-radius: 3px 0 0 3px;
+    font-size: 1.6rem;
+    border: 1px solid #d3d3d3;
+    border-right: none;
+}
+
+.mid-section input:focus {
+    outline: solid 1px rgb(145, 145, 233);
+    border-right: solid 1px rgb(145, 145, 233);
+}
+
+.mid-section button {
+    width: 9%;
+    padding-top: 4px;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 3px 3px 0;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.mid-section button:hover {
+    border-color: #c6c6c6;
+    background-color: #f0f0f0;
+}
+
+.mid-section > i {
+    width: 6%;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #eee;
+    border-radius: 50%;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*? Start Right Section */
+.right-section {
+    display: flex;
+}
+
+.right-section a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* End Right Section */
+
+/*! End Header Style */
+
+/*! Start Main Style */
+
+.content-area {
+    display: flex;
+    padding: 0 6px;
+    background-color: #f9f9f9;
+}
+
+/*? Start aside */
+
+aside {
+    width: 14%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: white;
+    overflow-y: auto;
+}
+
+aside nav ul li {
+    list-style-type: none;
+    padding: 5px 0 5px 5px;
+    margin: 0px 10px 0 2px;
+}
+
+aside nav ul li:hover {
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+aside nav ul li a {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin: 5px;
+    text-decoration: none;
+}
+
+aside nav ul li a span {
+    width: 70%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #030303;
+}
+
+.download-2 {
+    width: 24px;
+}
+
+aside nav ul li p {
+    color: #606060;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.channel-img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+/*? Start main */
+
+main {
+    width: 86%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border-top: solid 1px #ddd;
+}
+
+main section {
+    margin: 10px;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.video-info {
+    display: flex;
+}
+
+.channel-img2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+/*! End Main Style */
